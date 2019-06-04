@@ -1,0 +1,152 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin: 0;
+padding: 0;
+background-color: whitesmoke;
+height: 100%;
+width:100%;
+}
+
+.instructions{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#diceCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%
+  
+}
+
+#dice{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+height: 500px;
+width: 450px;
+/* background-color: white; */
+flex-direction: row;
+text-align: center;
+flex-wrap: wrap;
+/* background-color:saddlebrown; */
+
+}
+#one{
+    width: 35vw;
+    height: 34vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 4px;
+}
+
+#two{
+    width: 35vw;
+    height: 34vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    margin: 4px;
+}
+
+#three{
+    width: 35vw;
+    height: 34vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 4px;
+}
+
+#four{
+    width: 35vw;
+    height: 34vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 4px;
+}
+#five{
+    width: 35vw;
+    height: 34vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 4px;
+  
+}
+#six{
+    width: 35vw;
+    height: 34vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 4px;
+   
+}
+#myBtn{
+    width: 20vw;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+}
+#reset{
+    width: 13vw;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+flex-wrap: wrap;
+    justify-content: center;
+    /* margin-left: 40%; */
+}
+
+#counter{
+ display: flex;
+ justify-content: center;
+ font-family: sans-serif;
+ background-color: brown;
+ width: 13%;
+ font-size: 300%;
+ align-items: flex-end;
+ border-radius: 30%;
+ height: 10%;
+ margin-left: 5%;
+}
+
+#winLose{
+    display: flex;
+ justify-content: center;
+ font-family: sans-serif;
+ background-color: brown;
+ width: 13%;
+ font-size: 300%;
+ align-items: center;
+ border-radius: 10%;
+ align-content: center;
+ margin-left: 10%;
+ flex-direction: column;
+ flex-wrap: wrap;
+}
